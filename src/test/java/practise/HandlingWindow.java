@@ -18,7 +18,7 @@ public class HandlingWindow {
 		d.manage().window().maximize();
 		
 		d.get("https://www.naukri.com/");
-		
+		System.out.println("my commit");
 		// close parent/present window
 		d.close();
 		
